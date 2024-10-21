@@ -1,0 +1,26 @@
+
+Restapi - json
+get /users - HTML document Render
+get /api/users - list all users JSON 
+
+get /api/users/1 - get the user with id 1
+Dynamic path parameters
+GET /api/users/:id
+:id variale Dynamic.
+
+post /api/users - create new user
+we use middleware for this.
+
+
+patch /api/users/1 - edit the user with id 1
+
+delete /api/users/1 - delete the user with id 1;
+
+// used in middleware
+1729230529986: GET: /api/users 
+1729230660199: GET: /api/users/22 
+
+// mongo DB:
+Schema - Define the structure
+ Schema - Model by using schema we create the model
+using Model we do CRUD operation.
